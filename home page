@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Blitz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: white;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #00ccff;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #00ccff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('your-hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .games-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .games-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .games-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .game {
+            width: 300px;
+            background-color: #222;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        .game:hover {
+            transform: scale(1.05);
+        }
+
+        .game img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .game h3 {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Game Blitz</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Discover Thrilling Games on Game Blitz!</h2>
+    </section>
+
+    <section class="games-section">
+        <h2>Featured Games</h2>
+        <div class="games-container">
+            <div class="game">
+                <img src="game1.jpg" alt="Game 1">
+                <h3>Game Title 1</h3>
+            </div>
+            <div class="game">
+                <img src="game2.jpg" alt="Game 2">
+                <h3>Game Title 2</h3>
+            </div>
+            <div class="game">
+                <img src="game3.jpg" alt="Game 3">
+                <h3>Game Title 3</h3>
+            </div>
+            <div class="game">
+                <img src="game4.jpg" alt="Game 4">
+                <h3>Game Title 4</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Game Blitz. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
